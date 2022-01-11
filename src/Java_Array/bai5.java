@@ -44,7 +44,6 @@ public class bai5 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập số phần tử của mảng: ");
         int n = sc.nextInt();
-        // khởi tạo arr
         arr = new float[n];
         System.out.print("Nhập các phần tử của mảng: \n");
         for (int i = 0; i < n; i++) {
