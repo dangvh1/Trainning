@@ -23,9 +23,6 @@ public class bai4 {
                             t++;
                             System.out.println("cac cap so nguyen to : " + i + " " + j );
                         }
-                        if (t == 1) {
-                            //System.out.println("cac cap so nguyen to : " + i + " " + j );
-                        }
                     }
 
                 }
