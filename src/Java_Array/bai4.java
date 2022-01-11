@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class bai4 {
     public static void main(String[] args) {
-        int kt = 1;
         int n;
         int x;
+        int kt;
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("Nhập số phần tử của mảng: ");
@@ -26,13 +26,6 @@ public class bai4 {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + "\t");
         }
-        int kt;
-        for (int i = 0; i < n; i++) {
-            if (x - arr[i] < kt ){
-                kt = x - arr[i];
-            }
-        }
-
     }
 
     public static boolean ktsoNT(int n){
