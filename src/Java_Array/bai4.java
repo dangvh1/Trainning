@@ -26,6 +26,22 @@ public class bai4 {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + "\t");
         }
+        System.out.println("vi tri so nguyn to tren mang");
+        System.out.println(kiemTra(arr,n,x));
+    }
+
+    public static int kiemTra(int[] arr, int n, int x){
+        int kt = 0;
+        int kt1 = 99999;
+        for (int i = 0; i < n; i++) {
+            if (ktsoNT(arr[i])){
+                if (Math.abs(x- arr[i]) < kt1){
+                    kt1 = Math.abs(x - arr[i]);
+                    kt = i;
+                }
+            }
+        }
+        return kt;
     }
 
     public static boolean ktsoNT(int n){
@@ -41,6 +57,5 @@ public class bai4 {
         }
 
     }
-
 
 }
